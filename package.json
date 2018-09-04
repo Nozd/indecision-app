@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "create-react-app": "^1.5.2",
+    "eslint": "^5.5.0",
+    "global": "^4.3.2",
+    "react-to-typescript-definitions": "^1.1.0",
+    "typescript": "^3.0.3",
+    "typings": "^2.1.1"
+  },
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "nozdUp",
+  "license": "MIT"
+}
