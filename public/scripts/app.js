@@ -1,12 +1,13 @@
-console.log('App.js is running') 
+'use strict';
+
+console.log('App.js is running');
 
 //JSX - JavaSctip XML
-// var template = <p>JSX template from app.js</p>;
 var template = React.createElement(
-    "p",
-    null,
-    "JSX template from app.js"
-  );
+  'h1',
+  { id: 'firstString' },
+  'Babel is watching for you'
+);
 var appRoot = document.getElementById('app');
 
 ReactDOM.render(template, appRoot);
